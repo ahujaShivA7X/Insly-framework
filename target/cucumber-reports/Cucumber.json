@@ -1,0 +1,360 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 3,
+            "value": "#Test1"
+          }
+        ],
+        "line": 4,
+        "name": "Signing up for Insly",
+        "description": "",
+        "id": "register-a-new-user-to-insly;signing-up-for-insly",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12528372400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I go to \"url\" on \"browserType\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "url",
+                  "offset": 9
+                },
+                {
+                  "val": "browserType",
+                  "offset": 18
+                }
+              ],
+              "location": "TestStepDef.i_go_to_on(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4660115300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verify the elements on the page using a screenshot",
+            "match": {
+              "location": "TestStepDef.i_verify_the_elements_on_the_page_using_a_screenshot()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 8,
+            "value": "#Test2"
+          }
+        ],
+        "line": 9,
+        "name": "Enter details in Company section",
+        "description": "",
+        "id": "register-a-new-user-to-insly;enter-details-in-company-section",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 138300600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter \"companyName\" as \"shivaCompany\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "companyName",
+                  "offset": 9
+                },
+                {
+                  "val": "shivaCompany",
+                  "offset": 26
+                }
+              ],
+              "location": "TestStepDef.i_enter_as(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 79117000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I type \"inslyAdd\" as \"shiva\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "inslyAdd",
+                  "offset": 8
+                },
+                {
+                  "val": "shiva",
+                  "offset": 22
+                }
+              ],
+              "location": "TestStepDef.i_type(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135930500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I select company profile as \u0027Software Developer Insurance\u0027",
+            "match": {
+              "location": "TestStepDef.i_select_company_profile_as_Software_Developer_Insurance()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 933373800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select country as \u0027India\u0027",
+            "match": {
+              "location": "TestStepDef.i_select_country_as_India()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109821000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select Number of employees as \u00271-5\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 33
+                },
+                {
+                  "val": "5",
+                  "offset": 35
+                }
+              ],
+              "location": "TestStepDef.i_select_Number_of_employees_as(int,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120896900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select myself as \u0027A tech guy\u0027",
+            "match": {
+              "location": "TestStepDef.i_select_myself_as_A_tech_guy()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 17,
+            "value": "#Test3"
+          }
+        ],
+        "line": 18,
+        "name": "Enter details in Administrator section",
+        "description": "",
+        "id": "register-a-new-user-to-insly;enter-details-in-administrator-section",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 176339200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter \"AdminWorkEmail\" as \u0027newemail\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AdminWorkEmail",
+                  "offset": 9
+                }
+              ],
+              "location": "TestStepDef.i_enter_as_newemail(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 133839700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I type \"AccountManagerName\" as \u0027shiva\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AccountManagerName",
+                  "offset": 8
+                }
+              ],
+              "location": "TestStepDef.i_type_as_shiva(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85414600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on \"SuggestPassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SuggestPassword",
+                  "offset": 12
+                }
+              ],
+              "location": "TestStepDef.i_click_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72262100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I save the password and click on \"savePassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "savePassword",
+                  "offset": 34
+                }
+              ],
+              "location": "TestStepDef.i_save_the_password_and_click_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133465900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter my \"PhoneNumber\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PhoneNumber",
+                  "offset": 12
+                }
+              ],
+              "location": "TestStepDef.i_enter_my(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 25,
+            "value": "#Test3"
+          }
+        ],
+        "line": 26,
+        "name": "Enter details in Terms \u0026 Conditions section",
+        "description": "",
+        "id": "register-a-new-user-to-insly;enter-details-in-terms-\u0026-conditions-section",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2102618400,
+              "error_message": "java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.\r\n\tat org.openqa.selenium.By.xpath(By.java:113)\r\n\tat utils.baseClass.click(baseClass.java:79)\r\n\tat stepDefinitions.TestStepDef.i_read_and_click_on(TestStepDef.java:113)\r\n\tat ✽.Given I read \"TnC\" and click on \"TnCButto\"(Signup.feature:27)\r\n",
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "I read \"TnC\" and click on \"TnCButto\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TnC",
+                  "offset": 8
+                },
+                {
+                  "val": "TnCButto",
+                  "offset": 27
+                }
+              ],
+              "location": "TestStepDef.i_read_and_click_on(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "also the \"PrivacyPolicy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PrivacyPolicy",
+                  "offset": 10
+                }
+              ],
+              "location": "TestStepDef.also_the(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "I agree to \"personalData\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "I press \"signUpButton\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register a new user to Insly",
+    "description": "",
+    "id": "register-a-new-user-to-insly",
+    "keyword": "Feature",
+    "uri": "Signup.feature"
+  }
+]

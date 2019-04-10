@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="21.409867">
+<testcase classname="Register a new user to Insly" name="Signing up for Insly" time="17.188488">
+<system-out><![CDATA[Given I go to "url" on "browserType"........................................passed
+Then I verify the elements on the page using a screenshot...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register a new user to Insly" name="Enter details in Company section" time="1.51744">
+<system-out><![CDATA[Given I enter "companyName" as "shivaCompany"...............................passed
+And I type "inslyAdd" as "shiva"............................................passed
+And I select company profile as 'Software Developer Insurance'..............passed
+And I select country as 'India'.............................................passed
+And I select Number of employees as '1-5'...................................passed
+Then I select myself as 'A tech guy'........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register a new user to Insly" name="Enter details in Administrator section" time="0.601321">
+<system-out><![CDATA[Given I enter "AdminWorkEmail" as 'newemail'................................passed
+And I type "AccountManagerName" as 'shiva'..................................passed
+And I click on "SuggestPassword"............................................passed
+And I save the password and click on "savePassword".........................passed
+Then I enter my "PhoneNumber"...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register a new user to Insly" name="Enter details in Terms &amp; Conditions section" time="2.102618">
+<failure message="java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.&#13;&#10;&#9;at org.openqa.selenium.By.xpath(By.java:113)&#13;&#10;&#9;at utils.baseClass.click(baseClass.java:79)&#13;&#10;&#9;at stepDefinitions.TestStepDef.i_read_and_click_on(TestStepDef.java:113)&#13;&#10;&#9;at ✽.Given I read &quot;TnC&quot; and click on &quot;TnCButto&quot;(Signup.feature:27)&#13;&#10;"><![CDATA[Given I read "TnC" and click on "TnCButto"..................................failed
+And also the "PrivacyPolicy"................................................skipped
+And I agree to "personalData"...............................................undefined
+Then I press "signUpButton".................................................undefined
+
+StackTrace:
+java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.
+	at org.openqa.selenium.By.xpath(By.java:113)
+	at utils.baseClass.click(baseClass.java:79)
+	at stepDefinitions.TestStepDef.i_read_and_click_on(TestStepDef.java:113)
+	at ✽.Given I read "TnC" and click on "TnCButto"(Signup.feature:27)
+]]></failure>
+</testcase>
+</testsuite>
